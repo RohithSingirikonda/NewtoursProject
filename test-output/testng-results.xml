@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="4" ignored="0" total="10" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="434840" started-at="2018-06-03T15:38:54Z" finished-at="2018-06-03T15:46:08Z">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="431009" started-at="2018-06-03T15:59:52Z" finished-at="2018-06-03T16:07:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="434840" started-at="2018-06-03T15:38:54Z" finished-at="2018-06-03T15:46:08Z">
+    <test name="Free CRM App Test Cases" duration-ms="431009" started-at="2018-06-03T15:59:52Z" finished-at="2018-06-03T16:07:03Z">
       <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="38116" started-at="2018-06-03T21:08:55Z" finished-at="2018-06-03T21:09:33Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="36183" started-at="2018-06-03T21:29:53Z" finished-at="2018-06-03T21:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="4341" started-at="2018-06-03T21:09:33Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:09:37Z">
+        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="9525" started-at="2018-06-03T21:30:29Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:30:39Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="183" started-at="2018-06-03T21:09:37Z" finished-at="2018-06-03T21:09:37Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="2322" started-at="2018-06-03T21:30:39Z" finished-at="2018-06-03T21:30:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="39673" started-at="2018-06-03T21:09:37Z" finished-at="2018-06-03T21:10:17Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="36400" started-at="2018-06-03T21:30:41Z" finished-at="2018-06-03T21:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="5662" started-at="2018-06-03T21:10:17Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:10:23Z">
+        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="2358" started-at="2018-06-03T21:31:18Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:31:20Z">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="2063" started-at="2018-06-03T21:10:23Z" finished-at="2018-06-03T21:10:25Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="154" started-at="2018-06-03T21:31:20Z" finished-at="2018-06-03T21:31:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="35474" started-at="2018-06-03T21:10:25Z" finished-at="2018-06-03T21:11:00Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="36920" started-at="2018-06-03T21:31:20Z" finished-at="2018-06-03T21:31:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="2284" started-at="2018-06-03T21:11:00Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:11:02Z">
+        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="7482" started-at="2018-06-03T21:31:57Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:32:05Z">
           <params>
             <param index="0">
               <value>
@@ -155,15 +155,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="156" started-at="2018-06-03T21:11:02Z" finished-at="2018-06-03T21:11:03Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="2324" started-at="2018-06-03T21:32:05Z" finished-at="2018-06-03T21:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="36804" started-at="2018-06-03T21:11:03Z" finished-at="2018-06-03T21:11:39Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="41664" started-at="2018-06-03T21:32:07Z" finished-at="2018-06-03T21:32:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="4443" started-at="2018-06-03T21:11:39Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:11:44Z">
+        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="5937" started-at="2018-06-03T21:32:49Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:32:54Z">
           <params>
             <param index="0">
               <value>
@@ -179,15 +179,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="2308" started-at="2018-06-03T21:11:44Z" finished-at="2018-06-03T21:11:46Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="127" started-at="2018-06-03T21:32:54Z" finished-at="2018-06-03T21:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="36218" started-at="2018-06-03T21:11:46Z" finished-at="2018-06-03T21:12:22Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="34986" started-at="2018-06-03T21:32:55Z" finished-at="2018-06-03T21:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="2220" started-at="2018-06-03T21:12:22Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:12:25Z">
+        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="2305" started-at="2018-06-03T21:33:30Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:33:32Z">
           <params>
             <param index="0">
               <value>
@@ -243,15 +243,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="94" started-at="2018-06-03T21:12:25Z" finished-at="2018-06-03T21:12:25Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="62" started-at="2018-06-03T21:33:32Z" finished-at="2018-06-03T21:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="41367" started-at="2018-06-03T21:12:25Z" finished-at="2018-06-03T21:13:06Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="36435" started-at="2018-06-03T21:33:32Z" finished-at="2018-06-03T21:34:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="5191" started-at="2018-06-03T21:13:06Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:13:11Z">
+        <test-method status="FAIL" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="4087" started-at="2018-06-03T21:34:08Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:34:13Z">
           <params>
             <param index="0">
               <value>
@@ -307,15 +307,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="207" started-at="2018-06-03T21:13:11Z" finished-at="2018-06-03T21:13:11Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="2057" started-at="2018-06-03T21:34:13Z" finished-at="2018-06-03T21:34:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="33503" started-at="2018-06-03T21:13:11Z" finished-at="2018-06-03T21:13:45Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="38278" started-at="2018-06-03T21:34:15Z" finished-at="2018-06-03T21:34:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="10238" started-at="2018-06-03T21:13:45Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:13:55Z">
+        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="4383" started-at="2018-06-03T21:34:53Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:34:57Z">
           <params>
             <param index="0">
               <value>
@@ -331,15 +331,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="129" started-at="2018-06-03T21:13:55Z" finished-at="2018-06-03T21:13:55Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="2142" started-at="2018-06-03T21:34:57Z" finished-at="2018-06-03T21:34:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="36123" started-at="2018-06-03T21:13:55Z" finished-at="2018-06-03T21:14:31Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="34996" started-at="2018-06-03T21:34:59Z" finished-at="2018-06-03T21:35:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="10263" started-at="2018-06-03T21:14:31Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:14:42Z">
+        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="4215" started-at="2018-06-03T21:35:34Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:35:39Z">
           <params>
             <param index="0">
               <value>
@@ -355,15 +355,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="308" started-at="2018-06-03T21:14:42Z" finished-at="2018-06-03T21:14:42Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="2082" started-at="2018-06-03T21:35:39Z" finished-at="2018-06-03T21:35:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="33230" started-at="2018-06-03T21:14:42Z" finished-at="2018-06-03T21:15:15Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="33452" started-at="2018-06-03T21:35:41Z" finished-at="2018-06-03T21:36:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="4359" started-at="2018-06-03T21:15:15Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:15:20Z">
+        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="4537" started-at="2018-06-03T21:36:14Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:36:19Z">
           <params>
             <param index="0">
               <value>
@@ -379,15 +379,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="176" started-at="2018-06-03T21:15:20Z" finished-at="2018-06-03T21:15:20Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="131" started-at="2018-06-03T21:36:19Z" finished-at="2018-06-03T21:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="Setup" is-config="true" duration-ms="38113" started-at="2018-06-03T21:15:20Z" finished-at="2018-06-03T21:15:58Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="Setup" is-config="true" duration-ms="37817" started-at="2018-06-03T21:36:19Z" finished-at="2018-06-03T21:36:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@18067a5]" name="validateLogincredentials" duration-ms="8445" started-at="2018-06-03T21:15:58Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:16:06Z">
+        <test-method status="PASS" signature="validateLogincredentials(java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="validateLogincredentials" duration-ms="4478" started-at="2018-06-03T21:36:57Z" data-provider="getNewToursTestData" finished-at="2018-06-03T21:37:01Z">
           <params>
             <param index="0">
               <value>
@@ -403,11 +403,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogincredentials -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@18067a5]" name="TearDown" is-config="true" duration-ms="2079" started-at="2018-06-03T21:16:06Z" finished-at="2018-06-03T21:16:08Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@ecd4b]" name="TearDown" is-config="true" duration-ms="2077" started-at="2018-06-03T21:37:01Z" finished-at="2018-06-03T21:37:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
 </testng-results>
