@@ -1,5 +1,7 @@
 package com.qa.pages;
 
-public class CarRentalsPage {
+import com.qa.base.TestBase;
+
+public class CarRentalsPage extends TestBase {
 
 }

@@ -4,15 +4,26 @@
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
-  <test name="Free CRM App Test Cases(failed)">
+  <test name="New Tours Project Test Cases(failed)">
     <classes>
       <class name="com.qa.testcases.LoginPageTest">
         <methods>
           <include name="Setup"/>
-          <include name="validateLogincredentials" invocation-numbers="1 2 4 5"/>
+          <include name="validateVacationsPageLink"/>
+          <include name="validateCarRentalsPageLink"/>
+          <include name="validateRegistrationPageLink"/>
+          <include name="validateNewToursLogoTest"/>
+          <include name="validateDestinationPageLink"/>
+          <include name="validateCruisesPageLink"/>
+          <include name="validateHotelsPageLink"/>
+          <include name="validateLoginPageTitleTest"/>
+          <include name="validateFlightsPageLink"/>
+          <include name="validateSupportPageLink"/>
+          <include name="validateLoginPageLink"/>
+          <include name="validateLogincredentials" invocation-numbers="0"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.qa.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Free CRM App Test Cases(failed) -->
+  </test> <!-- New Tours Project Test Cases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

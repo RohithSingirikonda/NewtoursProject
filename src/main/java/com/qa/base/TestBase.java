@@ -1,4 +1,4 @@
-package com.qa.testbase;
+package com.qa.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import com.qa.util.TestUtil;
 
@@ -39,10 +40,14 @@ public class TestBase {
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
-		} else {
+		} else if(browserName.equals("headlessbrowser")) {
 			
+			driver = new HtmlUnitDriver();
+			
+		}else {
 			System.out.println("Please Assign the Browser property");
 		}
+		
 		
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().pageLoadTimeout(TestUtil.PageLoad_TimeOut, TimeUnit.MILLISECONDS);

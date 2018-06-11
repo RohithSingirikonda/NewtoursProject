@@ -1,6 +1,6 @@
 package com.qa.pages;
 
-import com.qa.testbase.TestBase;
+import com.qa.base.TestBase;
 
 public class ContactPage extends TestBase{
 

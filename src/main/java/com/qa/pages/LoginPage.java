@@ -4,12 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.qa.testbase.TestBase;
+import com.qa.base.TestBase;
 
 public class LoginPage extends TestBase{
 	
 	
-	@FindBy(xpath="//img[conatins(text(),'Mercury Tours']")
+	@FindBy(xpath="//img[src='http://newtours.demoaut.com/images/nav/logo.gif']")
 	WebElement logo;
 	
 	@FindBy(name="userName")
@@ -21,37 +21,37 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath="//input[@name='login']")
 	WebElement loginBtn;
 	
-	@FindBy(xpath="//a[conatins(text(),'SIGN-ON']")
+	@FindBy(xpath="//a[contains(text(),'SIGN-ON')]")
 	WebElement signinLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'REGISTER']")
+	@FindBy(xpath="//a[contains(text(),'REGISTER')]")
 	WebElement registrationLink;
 
-	@FindBy(xpath="//a[conatins(text(),'SUPPORT']")
+	@FindBy(xpath="//a[contains(text(),'SUPPORT')]")
 	WebElement supportLink;
 
-	@FindBy(xpath="//a[conatins(text(),'CONTACT']")
+	@FindBy(xpath="//a[contains(text(),'CONTACT')]")
 	WebElement contactLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Home']")
+	@FindBy(xpath="//a[contains(text(),'Home')]")
 	WebElement homeLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Flights']")
+	@FindBy(xpath="//a[contains(text(),'Flights')]")
 	WebElement flightsLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Hotels']")
+	@FindBy(xpath="//a[contains(text(),'Hotels')]")
 	WebElement hotelsLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Car Rentals']")
+	@FindBy(xpath="//a[contains(text(),'Car Rentals')]")
 	WebElement carRentalsLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Cruises']")
+	@FindBy(xpath="//a[contains(text(),'Cruises')]")
 	WebElement cruisesLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Destinations']")
+	@FindBy(xpath="//a[contains(text(),'Destinations')]")
 	WebElement destinationsLink;
 	
-	@FindBy(xpath="//a[conatins(text(),'Vacations']")
+	@FindBy(xpath="//a[contains(text(),'Vacations')]")
 	WebElement vacationsLink;
 	
 	
@@ -60,12 +60,12 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public boolean validateNewToursLogo(){
-		return logo.isDisplayed();
-	}
-	
 	public String validateLoginPageTitle(){
 		return driver.getTitle();
+	}
+	
+	public boolean validateNewToursLogo(){
+		return logo.isDisplayed();
 	}
 	
 	public HomePage Login(String name, String pass){
@@ -79,7 +79,7 @@ public class LoginPage extends TestBase{
 	
 	public RegistrationPage RegistrationPageLink(){
 		registrationLink.click();
-		
+    
 		return new RegistrationPage();
 	}
 	

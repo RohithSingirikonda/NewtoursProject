@@ -14,7 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
 
-import com.qa.testbase.TestBase;
+import com.qa.base.TestBase;
 
 public class TestUtil extends TestBase {
 	
@@ -56,6 +56,7 @@ public class TestUtil extends TestBase {
 			}
 			return data;
 		}
+
 		
 		
 		public static void takeScreenshotAtEndOfTest() throws IOException {

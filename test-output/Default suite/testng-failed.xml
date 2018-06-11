@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.LoginPageTest">
+      <class name="com.qa.testcases.RegistrationPageTest">
         <methods>
-          <include name="Setup"/>
-          <include name="validateLogincredentials" invocation-numbers="1 2 4 5"/>
-          <include name="TearDown"/>
+          <include name="validateLogincredentialsTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.testcases.LoginPageTest -->
+      </class> <!-- com.qa.testcases.RegistrationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
