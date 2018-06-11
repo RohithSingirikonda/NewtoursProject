@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test name="New Tours Project Test Cases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.LoginPageTest">
+      <class name="com.qa.testcases.RegistrationPageTest">
         <methods>
-          <include name="Setup"/>
-          <include name="validateVacationsPageLink"/>
-          <include name="validateCarRentalsPageLink"/>
-          <include name="validateRegistrationPageLink"/>
-          <include name="validateNewToursLogoTest"/>
-          <include name="validateDestinationPageLink"/>
-          <include name="validateCruisesPageLink"/>
-          <include name="validateHotelsPageLink"/>
-          <include name="validateLoginPageTitleTest"/>
-          <include name="validateFlightsPageLink"/>
-          <include name="validateSupportPageLink"/>
-          <include name="validateLoginPageLink"/>
-          <include name="validateLogincredentials" invocation-numbers="0"/>
-          <include name="TearDown"/>
+          <include name="validateLogincredentialsTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.testcases.LoginPageTest -->
+      </class> <!-- com.qa.testcases.RegistrationPageTest -->
     </classes>
-  </test> <!-- New Tours Project Test Cases(failed) -->
-</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -58,7 +58,7 @@ public class RegistrationPage extends TestBase{
 	}
 	
 	
-	public void RegisterUsers(String firstname, String lastname, String Phone, String Email, String Address1, String Address2,
+	public LoginPage RegisterUsers(String firstname, String lastname, String Phone, String Email, String Address1, String Address2,
 			 String City, String State, String PostalCode, String Country, String uname, String Password, String ConfirmPassword){
 		
 		
@@ -79,6 +79,8 @@ public class RegistrationPage extends TestBase{
 		password.sendKeys(Password);
 		confirmPassword.sendKeys(ConfirmPassword);
 		register.click();
+		
+		return new LoginPage();
 		
 	}
 	

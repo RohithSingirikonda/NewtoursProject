@@ -1,7 +1,5 @@
 package com.qa.testcases;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -31,22 +29,22 @@ public class RegistrationPageTest extends TestBase{
 	}
 	
 	
-	@DataProvider
+	@DataProvider(name = "RegPageTestDetails")
 	public Object[][] getNewToursRegTestData(){
 		Object data[][] = TestUtil.getTestData(regPageSheet);
 		return data;
 	}
 	
 	
-	@Test(priority=1, dataProvider="getNewToursRegTestData")
+	@Test(priority=1, dataProvider="RegPageTestDetails")
 	public void validateLogincredentialsTest(String firstname, String lastname, String Phone, String Email, String Address1, 
 			String Address2,String City, String State, String PostalCode, String Country, 
 			 String uname, String Password, String ConfirmPassword){
 		
 		loginPage.RegistrationPageLink();
+		
 		registrationPage.RegisterUsers(firstname, lastname, Phone, Email, Address1, Address2, City, State, PostalCode, Country,
 				uname, Password, ConfirmPassword);
-		
 		
 	}
 	
