@@ -4,8 +4,12 @@
 	<test name="Free CRM App Test Cases">
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+<<<<<<< HEAD
 			<!-- <class name="com.crm.qa.testcases.HomePageTest"></class> -->
 			
+=======
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+>>>>>>> 364737f9159943a8685756c1e751e445485e4c85
 		</classes>
 	</test>
 </suite>
