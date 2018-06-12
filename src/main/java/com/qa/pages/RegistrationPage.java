@@ -59,7 +59,7 @@ public class RegistrationPage extends TestBase{
 	
 	
 	public LoginPage RegisterUsers(String firstname, String lastname, String Phone, String Email, String Address1, String Address2,
-			 String City, String State, String PostalCode, String Country, String uname, String Password, String ConfirmPassword){
+			 String City, String State, String PostalCode, String uname, String Password, String ConfirmPassword){
 		
 		
 		firstName.sendKeys(firstname);
@@ -70,11 +70,7 @@ public class RegistrationPage extends TestBase{
 		address2.sendKeys(Address2);
 		city.sendKeys(City);
 		state.sendKeys(State);
-		postalCode.sendKeys(PostalCode);
-		
-		Select select = new Select(country);
-		select.selectByVisibleText(Country);
-		
+		postalCode.sendKeys(PostalCode);		
 		email.sendKeys(uname);
 		password.sendKeys(Password);
 		confirmPassword.sendKeys(ConfirmPassword);

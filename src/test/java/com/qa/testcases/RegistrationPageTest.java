@@ -15,7 +15,7 @@ public class RegistrationPageTest extends TestBase{
 	
 	RegistrationPage registrationPage;
 	LoginPage loginPage;
-	String regPageSheet = "RegistrationPage";
+	String regPageSheet="RegistrationPage";
 	
 	public RegistrationPageTest(){
 		super();
@@ -29,21 +29,23 @@ public class RegistrationPageTest extends TestBase{
 	}
 	
 	
-	@DataProvider(name = "RegPageTestDetails")
-	public Object[][] getNewToursRegTestData(){
+	@DataProvider(name = "RegTestDetails")
+	public Object[][] getNewToursTestData(){
 		Object data[][] = TestUtil.getTestData(regPageSheet);
 		return data;
 	}
 	
 	
-	@Test(priority=1, dataProvider="RegPageTestDetails")
+	
+	
+	@Test(priority=1, dataProvider="RegTestDetails")
 	public void validateLogincredentialsTest(String firstname, String lastname, String Phone, String Email, String Address1, 
-			String Address2,String City, String State, String PostalCode, String Country, 
-			 String uname, String Password, String ConfirmPassword){
+			String Address2,String City, String State, String PostalCode,
+			String uname, String Password, String ConfirmPassword){
 		
 		loginPage.RegistrationPageLink();
 		
-		registrationPage.RegisterUsers(firstname, lastname, Phone, Email, Address1, Address2, City, State, PostalCode, Country,
+		registrationPage.RegisterUsers(firstname, lastname, Phone, Email, Address1, Address2, City, State, PostalCode,
 				uname, Password, ConfirmPassword);
 		
 	}

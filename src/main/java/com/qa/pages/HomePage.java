@@ -45,11 +45,11 @@ public class HomePage extends TestBase{
 	
 	
 	
-	public void ValidateFlightSelection(boolean TripType, String Passengers, String Source, String FromMonth, String FromDay, String Destination, 
-			String ToMonth, String ToDay, String ClassType, String Airlines) {
+	public void ValidateFlightSelection(String Passengers, String Source, String FromMonth, String FromDay, String Destination, 
+			String ToMonth, String ToDay, String Airlines) {
 		
 		
-		tripType.isSelected();
+		
 		passengers.sendKeys(Passengers);
 		source.sendKeys(Source);
 		fromMonth.sendKeys(FromMonth);
@@ -57,7 +57,6 @@ public class HomePage extends TestBase{
 		destination.sendKeys(Destination);
 		toMonth.sendKeys(ToMonth);
 		toDay.sendKeys(ToDay);
-		classType.isSelected();
 		airlines.sendKeys(Airlines);
 		
 	}
