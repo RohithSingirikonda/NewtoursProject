@@ -1,8 +1,11 @@
 package com.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+
 import org.openqa.selenium.support.ui.Select;
 
 import com.qa.base.TestBase;
@@ -59,7 +62,7 @@ public class RegistrationPage extends TestBase{
 	
 	
 	public LoginPage RegisterUsers(String firstName, String lastName, String Phone, String userName, String Address1, String Address2,
-			 String City, String State, String PostalCode, String uname, String Password, String confirmPassword){
+			 String City, String State, String PostalCode, String Country, String uname, String Password, String confirmPassword){
 		
 		
 		firstname.sendKeys(firstName);
@@ -71,13 +74,13 @@ public class RegistrationPage extends TestBase{
 		city.sendKeys(City);
 		state.sendKeys(State);
 		postalcode.sendKeys(PostalCode);
-		
-		//Select select = new Select(country);
-		//select.selectByVisibleText(Country);
-		
+		Select select = new Select(driver.findElement(By.name("country")));
+		select.selectByVisibleText(Country);
 		email.sendKeys(uname);
 		password.sendKeys(Password);
 		confirmpassword.sendKeys(confirmPassword);
+		
+		
 		//register.click();
 		
 		return new LoginPage();

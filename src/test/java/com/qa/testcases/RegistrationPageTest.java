@@ -17,7 +17,7 @@ public class RegistrationPageTest extends TestBase{
 	TestUtil testUtil;
 	RegistrationPage registrationPage;
 	LoginPage loginPage;
-	String regPageSheet = "RegistrationPageData";
+	String regPageSheet = "RegistrationData";
 	
 	public RegistrationPageTest(){
 		super();
@@ -43,11 +43,11 @@ public class RegistrationPageTest extends TestBase{
 	
 	
 	@Test(priority=1, dataProvider="RegTestDetails")
-	public void validateLogincredentialsTest(String firstname, String lastname, String phone, String username, String address1, String address2, String city, String state, String postalcode, String usname, String password, String confirmpassword){
+	public void validateLogincredentialsTest(String firstname, String lastname, String phone, String username, String address1, String address2, String city, String state, String postalcode, String country, String usname, String password, String confirmpassword){
 		
 		loginPage.RegistrationPageLink();
 		
-		registrationPage.RegisterUsers(firstname, lastname, phone, username, address1, address2, city, state, postalcode, usname, password, confirmpassword);		
+		registrationPage.RegisterUsers(firstname, lastname, phone, username, address1, address2, city, state, postalcode, country, usname, password, confirmpassword);		
 	}
 	
 

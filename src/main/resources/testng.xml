@@ -9,7 +9,8 @@
 
 	<test name="New Tours Project Test Cases">
 		<classes>
-			<class name="com.qa.testcases.LoginPageTest"></class>
+			<!-- <class name="com.qa.testcases.LoginPageTest"></class>   -->
+			<class name="com.qa.testcases.RegistrationPageTest"></class>
 		</classes>
 	</test>
 </suite>
