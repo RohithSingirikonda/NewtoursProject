@@ -1,5 +1,6 @@
 package com.qa.testcases;
 
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -13,9 +14,10 @@ import com.qa.util.TestUtil;
 
 public class RegistrationPageTest extends TestBase{
 	
+	TestUtil testUtil;
 	RegistrationPage registrationPage;
 	LoginPage loginPage;
-	String regPageSheet="RegistrationPage";
+	String regPageSheet = "RegistrationPageData";
 	
 	public RegistrationPageTest(){
 		super();
@@ -26,6 +28,8 @@ public class RegistrationPageTest extends TestBase{
 	public void setUp(){
 		initialize();
 		loginPage =  new LoginPage();
+		registrationPage = new RegistrationPage();
+		testUtil = new TestUtil();
 	}
 	
 	
@@ -39,23 +43,19 @@ public class RegistrationPageTest extends TestBase{
 	
 	
 	@Test(priority=1, dataProvider="RegTestDetails")
-	public void validateLogincredentialsTest(String firstname, String lastname, String Phone, String Email, String Address1, 
-			String Address2,String City, String State, String PostalCode,
-			String uname, String Password, String ConfirmPassword){
+	public void validateLogincredentialsTest(String firstname, String lastname, String phone, String username, String address1, String address2, String city, String state, String postalcode, String usname, String password, String confirmpassword){
 		
 		loginPage.RegistrationPageLink();
 		
-		registrationPage.RegisterUsers(firstname, lastname, Phone, Email, Address1, Address2, City, State, PostalCode,
-				uname, Password, ConfirmPassword);
-		
+		registrationPage.RegisterUsers(firstname, lastname, phone, username, address1, address2, city, state, postalcode, usname, password, confirmpassword);		
 	}
 	
-	
+
 
 	
 	@AfterMethod
 	public void tearDown(){
-		//driver.close();
+		driver.close();
 	}
 	
 

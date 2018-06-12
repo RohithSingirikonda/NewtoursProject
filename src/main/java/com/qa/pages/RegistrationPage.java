@@ -11,16 +11,16 @@ public class RegistrationPage extends TestBase{
 
 	
 	@FindBy(xpath="//input[@name='firstName']")
-	WebElement firstName;
+	WebElement firstname;
 	
 	@FindBy(xpath="//input[@name='lastName']")
-	WebElement lastName;
-
-	@FindBy(xpath="//input[@id='userName']")
-	WebElement userName;
+	WebElement lastname;
 
 	@FindBy(xpath="//input[@name='phone']")
 	WebElement phone;
+	
+	@FindBy(xpath="//input[@id='userName']")
+	WebElement username;
 	
 	@FindBy(xpath="//input[@name='address1']")
 	WebElement address1;
@@ -35,7 +35,7 @@ public class RegistrationPage extends TestBase{
 	WebElement state;
 
 	@FindBy(xpath="//input[@name='postalCode']")
-	WebElement postalCode;
+	WebElement postalcode;
 
 	@FindBy(name="country")
 	WebElement country;
@@ -47,7 +47,7 @@ public class RegistrationPage extends TestBase{
 	WebElement password;
 
 	@FindBy(xpath="//input[@name='confirmPassword']")
-	WebElement confirmPassword;
+	WebElement confirmpassword;
 
 	@FindBy(xpath="//input[@name='register']")
 	WebElement register;
@@ -58,23 +58,27 @@ public class RegistrationPage extends TestBase{
 	}
 	
 	
-	public LoginPage RegisterUsers(String firstname, String lastname, String Phone, String Email, String Address1, String Address2,
-			 String City, String State, String PostalCode, String uname, String Password, String ConfirmPassword){
+	public LoginPage RegisterUsers(String firstName, String lastName, String Phone, String userName, String Address1, String Address2,
+			 String City, String State, String PostalCode, String uname, String Password, String confirmPassword){
 		
 		
-		firstName.sendKeys(firstname);
-		lastName.sendKeys(lastname);
+		firstname.sendKeys(firstName);
+		lastname.sendKeys(lastName);
 		phone.sendKeys(Phone);
-		userName.sendKeys(Email);
+		username.sendKeys(userName);
 		address1.sendKeys(Address1);
 		address2.sendKeys(Address2);
 		city.sendKeys(City);
 		state.sendKeys(State);
-		postalCode.sendKeys(PostalCode);		
+		postalcode.sendKeys(PostalCode);
+		
+		//Select select = new Select(country);
+		//select.selectByVisibleText(Country);
+		
 		email.sendKeys(uname);
 		password.sendKeys(Password);
-		confirmPassword.sendKeys(ConfirmPassword);
-		register.click();
+		confirmpassword.sendKeys(confirmPassword);
+		//register.click();
 		
 		return new LoginPage();
 		

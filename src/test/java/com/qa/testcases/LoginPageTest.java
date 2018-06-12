@@ -54,14 +54,14 @@ public class LoginPageTest extends TestBase{
 	
 	
 	
-	@Test(priority=1, enabled=true)
+	@Test(priority=1, enabled=false)
 	public void validateLoginPageTitleTest(){
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "555 Welcome: Mercury Tours");
 	}
 	
 	
-	@Test(priority=2, enabled=true)
+	@Test(priority=2, enabled=false)
 	public void validateNewToursLogoTest(){
 		boolean flag = loginPage.validateNewToursLogo();
 		Assert.assertTrue(flag);
