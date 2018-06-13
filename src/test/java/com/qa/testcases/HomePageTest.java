@@ -37,7 +37,7 @@ public class HomePageTest extends TestBase {
 	}
 	
 	
-	@Test(dataProvider="FlightBookingDetails")
+	@Test(dataProvider="FlightBookingDetails", enabled=false)
 	public void ValidateFlightSelectionTest(String Passengers, String Source, String FromMonth, String FromDay, 
 			String Destination, String ToMonth, String ToDay, String Airlines){	
 		

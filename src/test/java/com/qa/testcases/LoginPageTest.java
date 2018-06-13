@@ -61,7 +61,7 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@Test(priority=2, enabled=true)
+	@Test(priority=2, enabled=false)
 	public void validateNewToursLogoTest(){
 		boolean flag = loginPage.validateNewToursLogo();
 		Assert.assertTrue(flag);
