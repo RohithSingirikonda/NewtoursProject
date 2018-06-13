@@ -7,10 +7,22 @@
 	</listeners>
 
 
-	<test name="New Tours Project Test Cases">
+		<test name="Test 1">
 		<classes>
-			<!-- <class name="com.qa.testcases.LoginPageTest"></class>   -->
-			<class name="com.qa.testcases.RegistrationPageTest"></class>
+			<class name="com.qa.testcases.LoginPageTest"></class>			
 		</classes>
 	</test>
+
+	<test name="Test 2">
+		<classes>
+			<class name="com.qa.testcases.RegistrationPageTest"></class>  
+		</classes>
+	</test>
+	
+	<test name="Test 3">
+		<classes>
+			<class name="com.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+	
 </suite>

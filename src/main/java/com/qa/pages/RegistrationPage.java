@@ -74,7 +74,7 @@ public class RegistrationPage extends TestBase{
 		city.sendKeys(City);
 		state.sendKeys(State);
 		postalcode.sendKeys(PostalCode);
-		Select select = new Select(driver.findElement(By.name("country")));
+		Select select = new Select(country);
 		select.selectByVisibleText(Country);
 		email.sendKeys(uname);
 		password.sendKeys(Password);

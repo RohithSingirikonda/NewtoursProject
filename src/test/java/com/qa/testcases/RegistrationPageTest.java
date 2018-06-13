@@ -42,7 +42,7 @@ public class RegistrationPageTest extends TestBase{
 	
 	
 	
-	@Test(priority=1, dataProvider="RegTestDetails")
+	@Test(dataProvider="RegTestDetails")
 	public void validateLogincredentialsTest(String firstname, String lastname, String phone, String username, String address1, String address2, String city, String state, String postalcode, String country, String usname, String password, String confirmpassword){
 		
 		loginPage.RegistrationPageLink();
