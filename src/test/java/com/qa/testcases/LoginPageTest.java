@@ -21,7 +21,7 @@ import com.qa.pages.VacationsPage;
 import com.qa.util.TestUtil;
 
 
-public class LoginPageTest extends TestBase{
+public class LoginPageTest extends TestBase {
 
 	
 	TestUtil testUtil;
